@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href = "fonts/stylesheet.css" rel = "stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <title>TinGram</title>
+    <script>
+        window.onload=function(){
+        document.getElementById('main').style.display='block';
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div id=main style="display:none;">
+
+<div class="page">
+<header class="header" id="header">
+    <div class="container">
+        <div class="nav" id="nav">
+            <div class="nav__item">
+                <a class="nav__item-link" href="#" data-scroll="#features">Application Features</a>
+            </div>
+            <div class="nav__item">
+                <a class="nav__item-link" href="#" data-scroll="#contact">Contact Us</a>
+            </div>
+            <div class="nav__item">
+                <a class="nav__item-link" href="#" data-scroll="#navigation">Navigation</a>
+            </div>
+            <div class="nav__item">
+                <a class="nav__item-link" href="#" data-scroll="#token">Information Token</a>
+            </div>
+
+            <div class="nav__item-mask">
+                <div class="nav__item-logo">
+                    <img src="assets/img/logo.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="adap__logo">
+            <img src="assets/img/footer.svg" alt="">
+        </div>
+
+        <button class="burger" type="button" id="navToggle">
+            <span class="burger__item"></span>
+        </button>
+    </div>
+</header>
+
+<div class="tingram">
+    <div class="tingram__bg">
+        <div class="container">
+            <div class="tingram__inner">
+                <div class="tingram__inner-left">
+                    <img class="img" src="assets/img/phone.png" alt="">
+                </div>
+                <div class="tingram__inner-right">
+                    <div class="tingram__inner-right_title">
+                        <a href="#" class="btn"><span>Tingram</span></a>
+                    </div>
+                    <div class="tingram__inner-right_subtitle">Tingram is an app to comfortably expand your social circle.</div>
+                    <a class="tingram__btn" href="https://airdrop.tingram.net/r/tin_1" target="_blank"><span>Airdrop & Referral Program</span></a>
+
+                    <div class="text-area min-w ml1">
+                        <button class="js-copy">Copy</button>
+                        <div class="js-field">0x2678b0141CB0b307bC535B4f2f3B89f2d1e6b033</div>
+                    </div>
+
+                    <div class="text-area min-w mr1">
+                        <a class="js-copy2" href="https://bscscan.com/address/0x2678b0141CB0b307bC535B4f2f3B89f2d1e6b033" target="_blank">
+                            Follow
+                        </a>
+                        <a href="https://bscscan.com/address/0x2678b0141CB0b307bC535B4f2f3B89f2d1e6b033" target="_blank"><div class="js-field" >https://bscscan.com/address/0x2678b0141CB0b307bC535B4f2f3B89f2d1e6b033</div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="navigation" id="navigation">
+    <div class="container">
+        <div class="navigation__inner">
+            <div class="titles">
+                <div class="title">Navigation</div>
+                <div class="subtitle">You can see the person you are interested in online on the map with the motives we need when communicating.</div>
+            </div>
+            <img class="navigation__inner-photo" src="assets/img/map.svg" alt="">
+            <img class="img ad__mob "  src="assets/img/mob__phone.png" alt="">
+            <img class="navigation__inner-photo mob"  src="assets/img/mob__phone.png" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="features" id="features">
+    <div class="features__bg">
+        <div class="container">
+            <div class="features__inner">
+                <div class="titles center">
+                    <div class="title">Application Features</div>
+                    <div class="subtitle">An advanced search system allows you to find a mate or an interlocutor for any interests or in any field of activity.</div>
+                </div>
+
+                <div class="features__inner-col">
+                    <div class="features__inner-item left">
+                        <div class="features__inner-item_title">Purpose of acquaintance:</div>
+                        <ul class="features__inner-item_list first">
+                            <li class="list__item">Looking for Friends</li>
+                            <li class="list__item">Looking for a Soul Mate</li>
+                            <li class="list__item">Looking for an Interlocutor</li>
+                        </ul>
+                        <div class="features__inner-item_photo">
+                            <img src="assets/img/love.svg" alt="">
+                        </div>
+                    </div>
+    
+                    <div class="features__inner-item left1">
+                        <div class="features__inner-item_title">Interests in sports:</div>
+                        <ul class="features__inner-item_list second">
+                            <li class="list__item">Football</li>
+                            <li class="list__item">Running</li>
+                            <li class="list__item">Gymnastics</li>
+                        </ul>
+                        <div class="features__inner-item_photo">
+                            <img src="assets/img/sport.svg" alt="">
+                        </div>
+                    </div>
+    
+                    <div class="features__inner-item right1">
+                        <div class="features__inner-item_title">Interests in hobbies:</div>
+                        <ul class="features__inner-item_list third">
+                            <li class="list__item">Cars</li>
+                            <li class="list__item">Video Games</li>
+                            <li class="list__item">Movies or Series</li>
+                        </ul>
+                        <div class="features__inner-item_photo">
+                            <img src="assets/img/pasle.svg" alt="">
+                        </div>
+                    </div>
+    
+                    <div class="features__inner-item right">
+                        <div class="features__inner-item_title">Professional employment:</div>
+                        <ul class="features__inner-item_list fourht">
+                            <li class="list__item">Economy</li>
+                            <li class="list__item">IT Activities</li>
+                            <li class="list__item">Psychology</li>
+                        </ul>
+                        <div class="features__inner-item_photo">
+                            <img src="assets/img/work.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="token" id="token">
+    <div class="container">
+        <div class="token__inner">
+            <div class="titles center w0">
+                <div class="title">Our Token</div>
+                <div class="subtitle">BEP-20 token standard. Total number: 1 000 000 000 Number of decimal places 9.</div>
+            </div>
+
+            <div class="token__inner-col">
+                <div class="token__elipse">
+                    <div class="fg animate__animated animate__pulse animate__infinite animate__slower"></div>
+                    <div class="fg1 animate__animated animate__pulse animate__infinite animate__slow"></div>
+                    <div class="fg2 animate__animated animate__pulse animate__infinite animate__fast"></div>
+                    <div class="fg3 animate__animated animate__pulse animate__infinite animate__faster">
+                        <img src="assets/img/logo.svg" alt="">
+                        <span>TIN token</span>
+                    </div>
+                    <div class="fg__block">
+                        <div class="fg4">
+                            <div class="fg5">
+                                <div class="fg6"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="backk">
+                    <div class="token-bg token-bg1">
+                        <div class="token__inner-col-item">
+                            <div class="token__inner-col-item_text">Any user can send tokens to applications, just like messages</div>
+                            <div class="token__inner-col-item_num">1</div>
+                        </div>
+                    </div>
+    
+                    <div class="token-bg token-bg2">
+                        <div class="token__inner-col-item">
+                            <div class="token__inner-col-item_text">Content creators will be able to receive stickers tied to tokens, which will allow them to monetize their work</div>
+                            <div class="token__inner-col-item_num">2</div>
+                        </div>
+                    </div>
+    
+                    <div class="token-bg token-bg3">
+                        <div class="token__inner-col-item">
+                            <div class="token__inner-col-item_text">There will be constant demand for tokens, because if users want to use premium functionality, it can only be bought for tokens</div>
+                            <div class="token__inner-col-item_num">3</div>
+                        </div>
+                    </div>
+    
+                    <div class="token-bg token-bg4">
+                        <div class="token__inner-col-item">
+                            <div class="token__inner-col-item_text">Tokens will allow users to monetize
+                                their photos and videos, and receive airdrops directly during live broadcasts</div>
+                            <div class="token__inner-col-item_num">4</div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="texts">
+                <div class="text-area text-area2 ml">
+                    <button class="js-copy">Copy</button>
+                    <div class="js-field">0x2678b0141CB0b307bC535B4f2f3B89f2d1e6b033</div>
+                </div>
+    
+                <div class="text-area text-area2 mr">
+                    <a class="js-copy2" href="https://bscscan.com/address/0x2678b0141CB0b307bC535B4f2f3B89f2d1e6b033" target="_blank">
+                        Follow
+                    </a>
+                    <a href="https://bscscan.com/address/0x2678b0141CB0b307bC535B4f2f3B89f2d1e6b033" target="_blank"><div class="js-field" >https://bscscan.com/address/0x2678b0141CB0b307bC535B4f2f3B89f2d1e6b033</div></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="contact" id="contact">
+    <div class="container">
+        <div class="contact__inner">
+            <div class="contact__inner-title">Subscribe to our social media</div>
+            <div class="contact__inner-icon">
+                <div class="contact__inner-icon_item">
+                    <a href="https://t.me/tingram_chat" target="_blank"><img src="assets/img/telegram.svg" alt=""></a>
+                </div>
+                <div class="contact__inner-icon_item">
+                    <a href="https://discord.gg/NqWpGzfQxw" target="_blank"><img src="assets/img/discord.svg" alt=""></a>
+                </div>
+                <div class="contact__inner-icon_item">
+                    <a href="https://twitter.com/tingram_net" target="_blank"><img src="assets/img/twitter.svg" alt=""></a>
+                </div>
+                <div class="contact__inner-icon_item">
+                    <a href="https://www.instagram.com/tingram_net/" target="_blank"><img src="assets/img/instagram.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__inner-logo">
+                <img src="assets/img/footer.svg" alt="">
+            </div>
+            <div class="footer__inner-text">&COPY; 2022 Tingram. All rights reserved.</div>
+        </div>
+    </div>
+</footer>
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
