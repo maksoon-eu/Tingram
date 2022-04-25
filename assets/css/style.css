@@ -815,6 +815,221 @@ p {
           animation-iteration-count: infinite;
 }
 
+/* Roadmap */
+.roadmap {
+  padding: 100px 70px 100px 30px;
+  max-width: 1470px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.roadmap__inner {
+  margin-top: 84px;
+  min-height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.roadmap__inner-item {
+  position: absolute;
+  top: 40px;
+}
+
+.roadmap__inner-item span {
+  display: block;
+  position: absolute;
+  top: 190px;
+}
+
+.roadmap__line {
+  display: block;
+  height: 18px;
+  background-color: #54339A;
+  width: 100%;
+}
+
+.roadmap-item__text {
+  display: block;
+  position: absolute;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #3E288F;
+  left: -24px;
+  background-color: #fff;
+  width: 90px;
+  height: 90px;
+  -webkit-box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.22);
+          box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.22);
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.roadmap-item__text:before {
+  content: '';
+  position: absolute;
+  width: 135px;
+  height: 135px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#DF65F7), to(#B03BC8));
+  background: linear-gradient(180deg, #DF65F7 0%, #B03BC8 100%);
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.roadmap-item__text:after {
+  content: '';
+  position: absolute;
+  height: 62px;
+  width: 2px;
+  background-color: #9135A4;
+  top: 112px;
+}
+
+.roadmap-item__text--mod {
+  top: 336px;
+}
+
+.roadmap-item__text--mod:after {
+  content: '';
+  position: absolute;
+  height: 62px;
+  width: 2px;
+  background-color: #9135A4;
+  top: -85px;
+}
+
+.lineargrad2:before {
+  background: -webkit-gradient(linear, left top, left bottom, from(#F8BE53), to(#EB9B07));
+  background: linear-gradient(180deg, #F8BE53 0%, #EB9B07 100%);
+}
+
+.lineargrad2:after {
+  background-color: #F7BD52;
+}
+
+.lineargrad3:before {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3FE1D8), to(#4DB1EA));
+  background: linear-gradient(180deg, #3FE1D8 0%, #4DB1EA 100%);
+}
+
+.lineargrad3:after {
+  background-color: #4CB2E9;
+}
+
+.lineargrad4:before {
+  background: -webkit-gradient(linear, left top, left bottom, from(#B1EA41), to(#6AD025));
+  background: linear-gradient(180deg, #B1EA41 0%, #6AD025 100%);
+}
+
+.lineargrad4:after {
+  background-color: #AFE940;
+}
+
+.lineargrad5:before {
+  background: -webkit-gradient(linear, left top, left bottom, from(#F76565), to(#C53636));
+  background: linear-gradient(180deg, #F76565 0%, #C53636 100%);
+}
+
+.lineargrad5:after {
+  background-color: #C63737;
+}
+
+.lineargrad6:before {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3BB7C8), to(#6574F7));
+  background: linear-gradient(180deg, #3BB7C8 0%, #6574F7 100%);
+}
+
+.lineargrad6:after {
+  background-color: #3BB6C8;
+}
+
+.roadmap-item__back {
+  position: absolute;
+  top: 250px;
+  left: -111px;
+  min-width: 265px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.roadmap-item__back--mod {
+  top: -35px;
+}
+
+.roadmap-item__img {
+  margin-bottom: 20px;
+}
+
+.roadmap-item__title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.roadmap-item__list {
+  list-style: disc;
+  position: relative;
+  left: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.roadmap-item__list-item {
+  margin-bottom: 6px;
+}
+
+.tick {
+  list-style: url(../img/check.svg);
+}
+
+.item1 {
+  left: 4%;
+}
+
+.item2 {
+  left: 22%;
+}
+
+.item3 {
+  left: 40%;
+}
+
+.item4 {
+  left: 58%;
+}
+
+.item5 {
+  left: 76%;
+}
+
+.item6 {
+  left: 93%;
+}
+
 /* Text Area */
 .text-area {
   width: 800px;
